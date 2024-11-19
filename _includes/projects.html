@@ -1,0 +1,16 @@
+{%- assign page_paths = site.pages | map: "path" -%}
+<ul class="collection-list">
+    {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.collection == "projects" -%}
+                <li>
+                    <a href="{{ my_page.url | relative_url }}">
+                        {%- if my_page.cover -%}
+                            <img src="{{ my_page.cover | relative_url}}" class="cover" />
+                        {%- endif -%}
+                        {{ my_page.title | escape }}
+                    </a>
+                </li>
+        {%- endif -%}
+    {%- endfor -%}
+</ul>

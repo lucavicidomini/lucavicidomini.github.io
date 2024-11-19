@@ -1,0 +1,19 @@
+
+title: Luca Vicidomini
+email: me@lucavicidomini.com
+description: >-
+  I'm a software developer based in Salerno (Italy).
+  I currently work with Angular, Laravel, Java, AWS.
+baseurl: ""
+url: ""
+github_username:  lucavicidomini
+linkedin_username: lucavicidomini
+
+# Theme settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+header_pages: []
+  # - projects/projects.html
+footer_pages:
+  - info/privacy-policy.md

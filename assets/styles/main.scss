@@ -1,0 +1,46 @@
+---
+---
+
+@import "minima";
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.small {
+    font-size: 90%;
+}
+
+.collection-list {
+    margin-left: -$spacing-unit * 0.5;
+    margin-right: -$spacing-unit * 0.5;
+
+    li {
+        width: calc(50%);
+        list-style-type: none;
+
+        a {
+            padding: $spacing-unit * 0.5;
+            display: block;
+
+            &:hover {
+                background-color: rgb(226 232 240);
+                border-radius: $spacing-unit $spacing-unit $spacing-unit * 0.5 $spacing-unit * 0.5;
+                text-decoration: none;
+            }
+        }
+
+        .cover {
+            display: block;
+            width: 100%;
+            border-radius: $spacing-unit * 0.5;
+            margin-bottom: $spacing-unit * 0.125;
+        }
+    }
+}
