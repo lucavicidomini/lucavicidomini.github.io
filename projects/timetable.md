@@ -31,12 +31,12 @@ The result goes under the very original name of **Timetable**.
 - Empty cells may have a background color.
 - Layout settings and pages are automatically saved in session's local storage, but can also be downloaded to a local file and imported later.
 
-Please note that timetable solves a very specific request and is not meant to be a universal tools.
+Please note that timetable solves a very specific request and is not meant to be a universal tool.
 
 ## Changelog
 
 - 0.2.0
-  - Allow to upload previously saved settings.
+  - Allow uploading previously downloaded settings.
 - 0.1.1
   - Fixed a bug with reactive forms that prevented using page settings.
 - 0.1.0
